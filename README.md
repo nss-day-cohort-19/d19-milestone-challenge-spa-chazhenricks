@@ -21,7 +21,7 @@
 
 You are now ready to work in the `challenge` branch.
 
-When your work in complete, push up the branch (`git push origin challenge`) and submit the pull request on Github.
+When your work is complete, push up the branch (`git push origin challenge`) and submit the pull request on Github.
 
 ## Instructions
 

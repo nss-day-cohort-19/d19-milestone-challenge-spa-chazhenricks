@@ -1,0 +1,26 @@
+{
+    "cars":
+    [
+        {
+            "make": "Honda",
+            "model": "Fit",
+            "year": "2012",
+            "price": 10000,
+            "description": "Immaculate 2012 Honda Fit with cloth interiors and power windows"
+        },
+        {
+            "make": "Nissan",
+            "model": "Rogue",
+            "year": "2008",
+            "price": 6000,
+            "description": "Perfect first car. Reliable and fuel efficent"
+        },
+        {
+            "make": "Toyota",
+            "model": "Camery",
+            "year": "2011",
+            "price": 11000,
+            "description": "Runs great. Clean title. Take it for a test drive today!"
+        }
+    ]
+}
