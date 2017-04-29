@@ -4,14 +4,13 @@ function populatePage (inventory) {
   var inventoryHTML ="";
 
   for(var i=0;i<inventory.cars.length;i++){
-        inventoryHTML += `<article>`;
-        inventoryHTML += `<h2>${inventory.cars[i].make}</h2>`;
-        inventoryHTML += `<h3>${inventory.cars[i].model}</h3>`;
-        inventoryHTML += `<h4>${inventory.cars[i].price}</h4>`;
-        inventoryHTML += `<h4>${inventory.cars[i].description}</h4>`;
+        inventoryHTML += `<article class="row car">`;
+        inventoryHTML += `<h3 class="col-md-4">${inventory.cars[i].make} ${inventory.cars[i].model}</h3>`;
+        inventoryHTML += `<h4 class="col-md-4 car-description">${inventory.cars[i].description}</h4>`;
+        inventoryHTML += `<h4 class="col-md-4">$${inventory.cars[i].price}</h4>`;
         inventoryHTML += `</article>`;
   }
-  carsDiv.innerHTML = inventoryHTML;
+  carsDiv.innerHTML += inventoryHTML;
 
 
   // Now that the DOM is loaded, establish all the event listeners needed
