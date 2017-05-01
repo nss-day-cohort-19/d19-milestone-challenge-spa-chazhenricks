@@ -1,3 +1,8 @@
+.car{
+    border: 1px solid black;
+    margin: 5px 0px;
+}
+
 .bordered{
-    border: 2px solid black;
+    border: 3px solid blue;
 }
